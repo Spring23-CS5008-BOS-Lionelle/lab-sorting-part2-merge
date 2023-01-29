@@ -87,7 +87,9 @@ void merge(int arr[], int temp[], int l, int m, int r)
     if (l > m || m + 1 > r)
         return;
 
-
+    int i = l;
+    int j = m + 1;
+    int start = l;
 }
 
 // To be built during week 6 lab
